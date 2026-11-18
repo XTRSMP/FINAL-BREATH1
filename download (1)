@@ -1,0 +1,10 @@
+PORT=3000
+NODE_ENV=development
+SESSION_SECRET=FBT_9xK7mP2vL8qR5wN4zT6cH1jD3sA0bY7uE2fG8kM
+# Preferred: Discord webhook URLs (each webhook targets its own channel)
+ORDERS_WEBHOOK_URL=https://discord.com/api/webhooks/1572027097780592762/1rFmITs0T0XYGTQOQgCE3hXZQYfh5Zej8zniyB63RwP0Jumxtu6tgZhfY0r7bFkGzIHl
+TOPUPS_WEBHOOK_URL=https://discord.com/api/webhooks/1572046755539849346/ddrsmnrcaFtKT851LWIm9NUaxdABZDQjePyqJ5fj3UzyfDxTvi9WSO3uVbVO6vD5VMLl
+# Optional alternative to webhooks: a Discord bot token with permission to send messages
+DISCORD_BOT_TOKEN=
+# Add the Public Key from Discord Developer Portal to enable message buttons
+DISCORD_PUBLIC_KEY=
